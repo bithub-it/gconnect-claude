@@ -5,7 +5,7 @@
       "url": "https://gconnect.able2code.com/mcp",
       "oauth": {
         "clientId": "gconnect-claude",
-        "callbackPort": 8765
+        "callbackPort": 48765
       }
     }
   }

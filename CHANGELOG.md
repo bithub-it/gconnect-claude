@@ -1,4 +1,7 @@
 # Changelog
+## 0.4.3
+- Porta di callback OAuth spostata da 8765 a 48765 (8765 è comunemente occupata da altri servizi locali). Nel client Keycloak `gconnect-claude` vanno registrati `http://localhost:48765/callback` e `http://127.0.0.1:48765/callback`.
+
 ## 0.4.2
 - Autenticazione con client Keycloak pubblico pre-registrato `gconnect-claude` (PKCE) e porta di callback fissa 8765: la registrazione dinamica del client non è disponibile sul server (HTTP 404).
 
