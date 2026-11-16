@@ -1,4 +1,7 @@
 # Changelog
+## 0.4.4
+- Le skill `ads-audit` e `account-governance` usano ora `ads_conversion_configuration` (5 sezioni), `ads_assets` e `ads_change_status`, verificati nell'elenco degli strumenti del server.
+
 ## 0.4.3
 - Porta di callback OAuth spostata da 8765 a 48765 (8765 è comunemente occupata da altri servizi locali). Nel client Keycloak `gconnect-claude` vanno registrati `http://localhost:48765/callback` e `http://127.0.0.1:48765/callback`.
 
