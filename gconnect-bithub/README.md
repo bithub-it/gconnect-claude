@@ -7,7 +7,7 @@ Skill e connessione MCP a GConnect (`https://gconnect.able2code.com/mcp`) per an
 ## Installazione
 
 ```
-/plugin marketplace add OWNER/gconnect-claude
+/plugin marketplace add bithub-it/gconnect-claude
 /plugin install gconnect-bithub@bithub-plugins
 ```
 
