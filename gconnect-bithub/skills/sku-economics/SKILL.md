@@ -4,6 +4,8 @@ description: Classifica SKU Shopping per costo, ordini reali, ROAS, opportunità
 ---
 # Redditività Shopping per SKU: niente conversioni di facciata
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `ads_products`, `mapped_product`, `unified_product_history`, `product_diagnostics`, `merchant_products`, `merchant_organic_performance` (schede gratuite) e `google_read_query` per le segmentazioni supportate. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 ## Metodo
 - Partire dal profilo preferenze e dalla strategia di offerta: Manual CPC, massimizza conversioni, CPA target, massimizza valore, ROAS target, vincolo budget, campagne con gruppi di prodotti/PMax. Chiedere *margine minimo* e *ROAS break-even* se non presenti; non inventare margini.
 - Query Shopping per SKU con cost, clicks, impressions, conversions e conversions_value, segmentazione per campagna/gruppo e conversion action quando supportata. Le conversioni attribuite a chiamate, indicazioni, `add_to_cart`, `begin_checkout`, visite o lead non sono ordini. Mostrare separatamente il totale Ads e il totale *purchase-only* verificato. Evitare doppio conteggio GA4-import Ads e tag Ads.

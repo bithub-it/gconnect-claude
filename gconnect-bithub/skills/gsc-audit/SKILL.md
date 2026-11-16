@@ -4,6 +4,8 @@ description: Ricerca opportunità SEO Shopping organico per categorie, prodotti,
 ---
 # Search Console — Audit SEO e-commerce
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `gsc_search` (query, pagine, dispositivi), `gsc_inspect_url` (campione di URL), `gsc_sitemaps`. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 1. Usare solo proprietà GSC autorizzata. Distinguere tipi di ricerca `web`, `image`, `shopping` ove disponibili; dichiarare filtri, periodo e limiti di aggregazione/privacy e la mancanza di dati recentissimi.
 2. Query commerciali: alto numero di impressioni, posizione migliorabile, CTR sotto benchmark **del medesimo segmento**, pagine in calo, brand vs non-brand; distinguere intenzione informativa, comparativa e transazionale.
 3. Mappare per URL/template: home, categorie, sottocategorie, filtri, brand, schede prodotto, guide. Rilevare query che atterrano su pagine poco pertinenti, possibile cannibalizzazione di più URL, paginazione e filtri indicizzabili senza valore.

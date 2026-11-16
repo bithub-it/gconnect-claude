@@ -5,6 +5,8 @@ description: Analizza dati di marketing, vendite e prestazioni e-commerce dispon
 
 # GConnect — Report e-commerce
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `client_overview` per un quadro d'insieme, poi gli strumenti specifici di ciascun audit. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 Quando l'utente richiede analisi del proprio sito tramite GConnect:
 
 - Individua il cliente autorizzato tramite `list_clients` e scopri le fonti tramite `list_sources`. Se ci sono più clienti, chiedi quale analizzare senza accedere a quelli non scelti.

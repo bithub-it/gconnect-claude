@@ -4,6 +4,8 @@ description: Analizza funnel, qualità degli ordini, canali, dispositivi, landin
 ---
 # GA4 — Audit e-commerce orientato alle vendite
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `ga4_report` per funnel, canali, dispositivi e transazioni; `gtm_container`, `gtm_live_version`, `gtm_workspaces`, `gtm_workspace_tags` per ispezionare i tag in sola lettura (duplicati degli eventi `purchase`). Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 1. Selezionare proprietà autorizzata e periodo esplicito (7/30/90 giorni e confronto con periodo precedente ove fattibile). Specificare proprietà, fuso, valuta, latenza e eventuali limiti/thresholding.
 2. Funnel acquisto: `view_item` → `add_to_cart` → `begin_checkout` → `add_shipping_info` → `add_payment_info` → `purchase`, **solo per eventi realmente implementati**. Spiegare differenze di denominatore, utenti vs eventi e funnel aperto/chiuso; gli step mancanti non equivalgono ad abbandoni.
 3. Analizzare acquisizione per `sessionDefaultChannelGroup`, source/medium, campaign, landing page, device, paese; distinguere attribuzione GA4 da quella Google Ads e non forzare join per sessione/click non disponibile.

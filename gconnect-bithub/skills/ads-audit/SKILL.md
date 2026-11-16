@@ -5,6 +5,8 @@ description: Audit indipendente e in sola lettura della coerenza tra obiettivi d
 
 # GConnect — Audit immediato dell'account Google Ads
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `client_overview`, `ads_campaigns`, `ads_products`, `ads_change_history` e, per conversion action, goal, asset, strategie di offerta e reti, `google_read_query` **solo con le risorse GAQL che il catalogo consente**. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 ## Principio
 Quando Google Ads è collegato e il cliente ha indicato cosa desidera e cosa **non desidera**, effettuare subito l'analisi disponibile in sola lettura. Non promettere accesso a risorse non esposte dal server MCP. Non modificare campagne, budget, conversioni, asset o targeting.
 

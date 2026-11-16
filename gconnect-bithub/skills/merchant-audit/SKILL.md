@@ -4,6 +4,8 @@ description: Analisi Merchant Center per e-commerce, feed, offerte, idoneità Sh
 ---
 # Merchant Center — Audit commerciale e tecnico
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `merchant_products`, `merchant_account_issues`, `merchant_data_sources`, `merchant_history`, `merchant_organic_performance`, `product_diagnostics` e `google_read_query` (MCQL) solo per le viste supportate e autorizzate. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 ## Procedura obbligatoria
 1. Identificare il cliente con `whoami`/`list_clients` e la sorgente Merchant con `list_sources`. Recuperare problemi account, prodotti elaborati, stato delle offerte e origini dei dati tramite `merchant_account_issues`, `merchant_products`, `merchant_data_sources` e `google_read_query` **solo con risorse supportate**. Paginare sino al completamento o dichiarare campione e limiti.
 2. Controllare qualità del feed: ID stabili, duplicati/varianti, brand, GTIN/MPN, titolo, descrizione, immagini, disponibilità, prezzi, sale_price, shipping, resi, categorie, condizioni, link landing, refresh/errori, scadenze e allineamento fra landing/checkout/feed; distinguere errori che bloccano Shopping da avvisi.

@@ -4,6 +4,8 @@ description: Verifica come è stato gestito Google Ads negli ultimi 90 giorni, s
 ---
 # Gestione account Ads — controlli 30/90 giorni
 
+> **Strumenti GConnect da preferire** (usa solo quelli presenti nell'elenco degli strumenti disponibili e rispetta i loro parametri): `ads_change_history`, `history_status`, `history_report` per lo storico conservato da GConnect e `google_read_query` per `change_event`/`change_status` solo se supportati dal catalogo. Se uno strumento manca o risponde «non autorizzato», dichiaralo e non aggirare il blocco.
+
 - `change_event`: dettagli di modifiche **ultimi 30 giorni**, inclusi prima/dopo e tipo client ove disponibili. `change_status`: risorse modificate **ultimi 90 giorni**, ma solo ultimo stato della risorsa e non ogni intervento. Non affermare che siano 90 giorni completi di cronologia eventi. Storico locale GConnect o export UI consentito per completare i tre mesi.
 - Inventariare cambi budget e bidding, ROAS/CPA target, attivazioni/pausa, gruppi prodotti ed esclusioni SKU, feed labels, negativi, asset, conversion goals, obiettivi personalizzati e tracking; annotare data, autore se visibile, risorsa, prima/dopo e cambiamento di performance nelle finestre compatibili.
 - Distinguere modifiche manuali, script/API automatizzate e modifiche automatiche; evitare attribuzioni di merito/colpa senza attore verificato.
