@@ -1,4 +1,7 @@
 # Changelog
+## 0.4.2
+- Autenticazione con client Keycloak pubblico pre-registrato `gconnect-claude` (PKCE) e porta di callback fissa 8765: la registrazione dinamica del client non è disponibile sul server (HTTP 404).
+
 ## 0.4.2 (repository marketplace)
 - Repository `gconnect-claude` strutturato come marketplace Claude Code: `.claude-plugin/marketplace.json` alla radice e plugin in `gconnect-bithub/`.
 - Documentazione pubblica per clienti e BitHub; note interne (gap MCP, audit OAuth, test, kit ChatGPT) tenute fuori dal repository (`internal/`, ignorata da Git).

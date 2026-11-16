@@ -2,7 +2,11 @@
   "mcpServers": {
     "gconnect": {
       "type": "http",
-      "url": "https://gconnect.able2code.com/mcp"
+      "url": "https://gconnect.able2code.com/mcp",
+      "oauth": {
+        "clientId": "gconnect-claude",
+        "callbackPort": 8765
+      }
     }
   }
 }
