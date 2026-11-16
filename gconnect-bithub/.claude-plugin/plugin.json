@@ -1,0 +1,11 @@
+{
+  "name": "gconnect-bithub",
+  "version": "0.4.0",
+  "description": "GConnect by BitHub: report e audit e-commerce (Google Ads, Merchant Center, GA4, Search Console) in sola lettura via MCP remoto con login BitHub.",
+  "author": {
+    "name": "BitHub",
+    "url": "https://bithub.it"
+  },
+  "homepage": "https://bithub.it",
+  "keywords": ["ecommerce", "google-ads", "merchant-center", "ga4", "search-console", "shopping", "audit", "read-only"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "bithub-plugins",
+  "owner": {
+    "name": "BitHub",
+    "url": "https://bithub.it"
+  },
+  "metadata": {
+    "description": "Marketplace privato BitHub: plugin per clienti abilitati. L'accesso ai dati dipende dalla sottoscrizione GConnect, non dall'installazione.",
+    "version": "0.4.0"
+  },
+  "plugins": [
+    {
+      "name": "gconnect-bithub",
+      "source": "./gconnect-bithub",
+      "description": "Auditor di e-commerce con Google Ads, Merchant, GA4, GSC via GConnect (sola lettura, login BitHub).",
+      "version": "0.4.0",
+      "category": "marketing",
+      "keywords": ["ecommerce", "google-ads", "merchant-center", "ga4", "search-console"]
+    }
+  ]
+}
